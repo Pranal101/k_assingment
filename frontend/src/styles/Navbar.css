@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px; /* Add gap between links */
+  }
+  
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; /* Increase font size */
+    transition: color 0.3s ease; /* Add smooth transition for color change */
+  }
+  
+  .nav-link:hover {
+    color: #824D74; /* Change color on hover */
+  }
+  
+  .logo {
+    font-size: 24px; /* Increase font size for logo */
+    color: #824D74; /* Yellow color for logo */
+    text-decoration: none;
+    font-weight: bold; /* Make logo bold */
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
